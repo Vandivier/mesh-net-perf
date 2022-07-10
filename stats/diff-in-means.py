@@ -19,7 +19,8 @@ def main():
 
 # TODO: have this print a csv or json file for web app consumption (file-based handoff)
 def runAllMeanDiffTests(df):
-    print("dumping df summary:" + str(df.head()))
+    print("dumping df summary:")
+    print(str(df))
 
     print("mean diff down mb overall")
     print("mean diff up mb overall")
